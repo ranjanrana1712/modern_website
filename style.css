@@ -4,7 +4,7 @@
 
 
 /* importing fonts from google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
 
 
 
@@ -58,6 +58,12 @@ a{
     display: inline-block;
 }
 
+/* to remove all the dots from ul elements */
+
+ul{
+    list-style: none;
+}
+
 /* utility css styling */
 .small-text-bold{
     font-size: 1rem;
@@ -67,4 +73,106 @@ a{
     max-width: 1180px;
     margin: auto;
     padding-inline: var(--padding-inline-section);
+}
+
+.hover-link{
+    color: var(--primary-text-color);
+    transition: 0.2s ease-out;
+}
+
+/* it is pseudo class selector. It is used to select the element when the cursor is hovered on the elements */
+
+.hover-link:hover{
+    color: var(--acent-color)
+}
+
+.primary-button{
+    /* background-color: #2294ed;
+    border: solid 1px;
+    padding: 0.8rem;
+    border-bottom-left-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+    border-top-left-radius: 0.3rem; */
+    background-color: var(--acent-color);
+    border-radius: 6px;
+    font-weight: 700px;
+    color: white !important;
+    padding: 12px 24px;
+    box-shadow: 0 0 2px var(--secondary-text-color);
+
+    transition: 0.2s ease-out;
+
+    
+}
+.primary-button:hover{
+    background-color: var(--accent-color-dark);
+}
+
+.secondary-button{
+    /* border: solid 1px;
+    padding: 0.8rem;
+    border-bottom-left-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+    border-top-left-radius: 0.3rem; */
+    border: 0.5px solid var(--accent-color-dark);
+    border-radius: 6px;
+    font-weight: 700px;
+    color:var(--primary-text-color);
+    padding: 12px 24px;
+    transition: 0.2s ease-out;
+}
+
+.secondary-button:hover{
+    border-color: var(--acent-color);
+}
+
+
+
+
+/* flex utility class */
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+
+/* top banner */
+.banner-text{
+    color: white;
+    /* top to bottom is 15px and left and right is 30px */
+    padding: 15px 30px;
+    text-align: center;
+}
+
+.top-banner{
+    background-image: url('/images/assets/asset\ 32.png');
+    background-color: #4fb3d4;
+    background-size: 300px;
+    
+}
+
+
+.main-nav{
+    margin-top: 20px;
+    /* gives space between usability hub and products */
+    justify-content: space-between;
+}
+
+.company-logo img{ 
+    width: 200px;
+
+}
+.nav-link{
+    /* the size of nav would be 730px */
+    flex-basis: 730px; 
+
+}
+
+.nav-link ul{
+    justify-content: end;
+    gap: 40px;
+
 }
