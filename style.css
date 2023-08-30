@@ -6,11 +6,6 @@
 /* importing fonts from google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
 
-
-
-
-
-
 *{
     margin: 0;
     padding: 0;
@@ -175,4 +170,94 @@ ul{
     justify-content: end;
     gap: 40px;
 
+}
+
+
+/* header section */
+
+.header{
+    padding: 50px var(--padding-inline-section);
+}
+
+.header-section{
+    justify-content: center;
+}
+
+.header-left h1{
+    margin-top: 20px;
+    
+    
+}
+
+.header-right img{
+    width: 600px;
+}
+
+.get-started-btn{
+    margin: 20px;
+}
+
+
+/* companies-section */
+
+
+.companies-header{
+
+    text-align: center;
+    /* give margin to top and bottom*/
+    margin-block: 30px;
+
+    color: var(--primary-text-color);
+
+    
+
+}
+.logos{
+    /* gap: 40px; */
+
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo{
+    height: 46px;
+    
+}
+
+
+/*feature section*/
+.features-section{
+    /* top left right bottom*/
+    padding: 80px var(--padding-inline-section) 0px;
+    
+    
+    background-image: url(./images/assets/asset\ 34.svg);
+
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+
+
+}
+.features-header{
+    text-align: center;
+}
+
+.features-header h2{
+    margin-bottom: 20px;
+}
+.features-area{
+    flex-wrap: wrap;
+    justify-content: space-between ;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.features-card{
+    flex-direction: column;
+    gap: 20px;
+    max-width: 30%;
+    text-align: center;
+    
 }
