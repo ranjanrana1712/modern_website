@@ -1,9 +1,9 @@
 # modern_website
  Hey, I will make a modern website using html and css only.
 
-* The main concepts that I used in creating this website are
+* The main concepts that I have used in creating this website are
 
-* html5 concepts
+* html5 c and 
 * css flexbox
 
 
