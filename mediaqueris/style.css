@@ -1,0 +1,21 @@
+body {
+    background-color: red;
+
+}
+
+/* using media queries  */
+
+/* @media( min-width: 400px) and ( max-width: 700px){
+    body {
+        background-color: green;
+
+
+    }
+    
+} */
+
+@media(400px <= width <= 700px){
+    body {
+        background-color: blue;
+    }
+}
