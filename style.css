@@ -68,6 +68,7 @@ ul{
     max-width: 1180px;
     margin: auto;
     padding-inline: var(--padding-inline-section);
+    overflow: hidden;
 }
 
 .hover-link{
@@ -406,4 +407,6 @@ footer{
 
     
 }
+
+
 
