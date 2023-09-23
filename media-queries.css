@@ -2,5 +2,122 @@
 
 @media screen and (max-width: 992px) {
 
+    h3{
+        font-size: 1.0rem;
     
+    }
+    .nav-toggle {
+        display: block;
+        margin-right: 20px;
+
+    }
+    .main-nav {
+        overflow: initial;
+    }
+    .nav-link {
+        position: absolute;
+        background-color: white;
+
+        left: -100%;
+
+        top: 100%;
+
+        width: 100%;
+        padding-block: 20px;
+
+
+
+    }
+    .nav-link.active {
+        left: 0;
+        transition: 0.2s ease-in-out;
+    }
+    .nav-link ul {
+        flex-direction: column;
+    }
+    .examples-area {
+        gap: 20px;
+
+    }
+    .examples-card {
+        /* to provide the gap between the images */
+        width: calc(50% - 10px);
+        height: 180px;
+    }  
+    .cta-section {
+        padding-block: 80px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 767px){
+
+    .header-section{
+        flex-direction: column-reverse;
+    }
+    .header-left h1 {
+        text-align: center;
+        
+        
+        
+    }
+    .primary-button {
+        width: 100%;
+
+    }
+    .features-card{
+        min-width: calc(50% - 10px);
+    }
+
+    .big-feature-container, #second-big-feature {
+        flex-direction: column;
+
+    }
+    .footer-container {
+        flex-direction: column;
+
+        gap: 20px;
+        text-align: center;
+        align-items: center;
+
+
+    }
+    .ok {
+
+        padding-left: 10px;
+    }
+    .link-column {
+        align-items: stretch;
+    }
+}
+
+
+@media screen and (max-width: 479px) {
+    .root {
+        --padding-inline-section: 10px;
+    }
+    h1 {
+        font-size: 2rem;
+
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    p {
+        font-size: 1rem;
+    }
+
+    .features-card{
+        min-width: 100%;
+    }
+
+    .examples-card {
+        width: 100%;
+    }
+
+
 }
